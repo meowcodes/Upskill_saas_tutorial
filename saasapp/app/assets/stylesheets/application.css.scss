@@ -17,10 +17,14 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+
+// Typography Styles
 h1, h2, h3 {
   font-family: "Crete Round", sans-serif;
 }
 
+
+// Background Gradient
 .navbar, .home-callout {
   /* Gradient providede by @_igohsh at uiGradients.com */
   background: #ff4479;  /* fallback for old browsers */
@@ -28,30 +32,22 @@ h1, h2, h3 {
   background: linear-gradient(to right top, #ff4479, #ff8076, #ffaf8a, #fcd7b4, #fff9ed) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+
+// Nav Styles
 .navbar {
   border: none;
   margin-bottom:0px;
 }
 
-.navbar-default .navbar-brand {
-  font-family: "Crete Round", sans-serif;
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
   color: #574144;
+  &:hover {
+    opacity: .75;
+  }
 }
 
- .navbar-default .navbar-nav > li > a {
-  color: #574144;
-}
-
-.navbar-default .navbar-brand:hover {
-  color: #574144;
-  opacity: .75;
-}
-
- .navbar-default .navbar-nav > li > a:hover {
-  color: #574144;
-  opacity: .75;
- }
-
+//Home Page Styles
 .home-callout{
   padding-top: 50px;
   padding-bottom: 50px;

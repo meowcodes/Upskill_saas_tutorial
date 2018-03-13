@@ -24,8 +24,8 @@ h1, h2, h3 {
 body, .navbar {
   //Gradient providede by @_igohsh at uiGradients.com
   background: #e1eec3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #f05053, #e1eec3) fixed;  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #f05053, #e1eec3) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to top, #e1eec3, #f05053) fixed ; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #e1eec3, #f05053) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .navbar {

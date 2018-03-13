@@ -21,7 +21,7 @@
 
 
 // Typography Styles
-h1, h2, h3 {
+h1, h2, h3, p {
   font-family: "Crete Round", sans-serif;
 }
 
@@ -53,6 +53,18 @@ h1, h2, h3 {
     opacity: .75;
   }
 }
+
+.navbar-default .navbar-toggle {
+  border: 2px solid #574144;
+  &:hover, &:focus {
+    background-color: #fcd7b4;
+    opacity: .75;
+  }
+  & .icon-bar {
+    background-color: #574144;
+  }
+}
+
 
 //Home Page Styles
 .home-callout{

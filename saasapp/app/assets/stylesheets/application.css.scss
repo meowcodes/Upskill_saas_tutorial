@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 .navbar, .home-callout {
-  //Gradient providede by @_igohsh at uiGradients.com
+  /* Gradient providede by @_igohsh at uiGradients.com */
   background: #ff4479;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right top, #ff4479, #ff8076, #ffaf8a, #fcd7b4, #fff9ed) fixed ; /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right top, #ff4479, #ff8076, #ffaf8a, #fcd7b4, #fff9ed) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -33,10 +33,24 @@ h1, h2, h3 {
   margin-bottom:0px;
 }
 
-.navbar a {
+.navbar-default .navbar-brand {
   font-family: "Crete Round", sans-serif;
   color: #574144;
 }
+
+ .navbar-default .navbar-nav > li > a {
+  color: #574144;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #574144;
+  opacity: .75;
+}
+
+ .navbar-default .navbar-nav > li > a:hover {
+  color: #574144;
+  opacity: .75;
+ }
 
 .home-callout{
   padding-top: 50px;

@@ -3,7 +3,7 @@
   <head>
     <title>Saasapp</title>
     <%= csrf_meta_tags %>
-    <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -19,13 +19,14 @@
             <span class="icon-bar"></span>
           </button>
           <%= link_to root_path, class: "navbar-brand" do %>
-            <i class="fa fa-group"></i> 
+            <i class="fa fa-cloud"></i> 
             Iris Edition
           <% end %>
         </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Contact Us", new_contact_path %></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>

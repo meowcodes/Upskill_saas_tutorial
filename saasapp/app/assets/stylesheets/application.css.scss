@@ -21,19 +21,18 @@
 
 
 // Typography Styles
-h1, h2, h3, p {
-  font-family: "Crete Round", sans-serif;
+h1, h2, h3 {
+  font-family: "Open Sans", sans-serif;
 }
 
 
 // Background Gradient
 .navbar, .home-callout {
   /* Gradient providede by @_igohsh at uiGradients.com */
-  background: #ff4479;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right top, #ff4479, #ff8076, #ffaf8a, #fcd7b4, #fff9ed) fixed ; /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right top, #ff4479, #ff8076, #ffaf8a, #fcd7b4, #fff9ed) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #9EFFBC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right top, #9effbc, #c1febd, #dcfec5, #f1fed1, #feffe2) fixed;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right top, #9effbc, #c1febd, #dcfec5, #f1fed1, #feffe2) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 
 // Nav Styles
 .navbar {
@@ -42,33 +41,30 @@ h1, h2, h3, p {
 }
 
 .navbar-brand {
-  font-family: 'Crete Round', sans-serif;
-  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-  color: #574144;
+  color: #6ACA8A;
   &:hover {
     opacity: .75;
   }
 }
 
 .navbar-default .navbar-toggle {
-  border: 2px solid #574144;
-  &:hover, &:focus {
-    background-color: #fcd7b4;
-    opacity: .75;
-  }
+  border: 2px solid #6ACA8A;
   & .icon-bar {
-    background-color: #574144;
+    background-color: #6ACA8A;
+  }
+  &:hover, &:focus {
+    background-color: #f1fed1;
   }
 }
-
 
 //Home Page Styles
 .home-callout{
   padding-top: 50px;
   padding-bottom: 50px;
-  color: #574144;
+  color: #6ACA8A;
 }
